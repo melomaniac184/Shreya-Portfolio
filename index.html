@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shreya Avale | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav class="container">
+      <h1 class="logo">Shreya Avale</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <!-- Resume Dropdown in Navbar -->
+        <li class="resume-dropdown">
+          <a href="#">📄 Resume ▾</a>
+          <ul class="dropdown-content">
+            <li><a href="assets/ShreyaAvaleResumeFrontEnd.pdf" target="_blank" rel="noopener noreferrer">Frontend Resume</a></li>
+            <li><a href="assets/ShreyaAvaleResumeDA.pdf" target="_blank" rel="noopener noreferrer">Data Analyst Resume</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero-text container">
+      <h1>Hello, I’m <span>Shreya Avale</span></h1>
+      <p>Aspiring <strong>Frontend Developer</strong> & <strong>Data Analyst</strong></p>
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="about">
+    <div class="container about-flex">
+      <img src="images/Profile Pic.jpg" alt="Shreya Avale" class="profile-pic">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          I’m a Computer Science undergraduate passionate about <strong>Frontend Development</strong> 
+          and <strong>Data Analysis</strong>.  
+          I love building responsive web applications with React & Tailwind CSS and 
+          creating data-driven dashboards and predictive models using Python, SQL, and ML.  
+          My goal is to blend <em>design + data</em> to craft impactful digital solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><h3>Frontend</h3><p>HTML, CSS, JavaScript, React.js, Tailwind CSS</p></div>
+        <div class="skill-card"><h3>Backend</h3><p>Node.js, Express.js, MongoDB, REST APIs</p></div>
+        <div class="skill-card"><h3>Data Analysis</h3><p>Python, SQL, Pandas, NumPy, Power BI, Tableau</p></div>
+        <div class="skill-card"><h3>Core CS</h3><p>DSA, OOP, DBMS, System Design</p></div>
+        <div class="skill-card"><h3>Tools</h3><p>Git, GitHub, VS Code, Linux</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>MindTrack – Mental Health Symptom Checker</h3>
+          <p>Responsive web app for mental health tracking with to-do list, daily diary, and progress tracker. Built using HTML, CSS, JavaScript.</p>
+          <a href="https://github.com/melomaniac184/MindTrack" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Hospitality Domain Data Analysis & Dashboard</h3>
+          <p>Analyzed hotel booking data and created an interactive Power BI dashboard to support revenue management decisions.</p>
+          <a href="https://github.com/melomaniac184/Hospitality-Data-Analysis-Project" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Netflix Data Analysis</h3>
+          <p>Explored 8,000+ Netflix titles to identify global streaming trends. Built visualizations with Python (Pandas, Matplotlib).</p>
+          <a href="https://github.com/melomaniac184/netflix-data-analysis" target="_blank">GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <h3>Career Counseling Web Application</h3>
+          <p>Full-stack web app for career guidance with responsive UI and optimized backend APIs. Built with React.js, Node.js, MongoDB, Tailwind CSS.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Smart Traffic Control using AI</h3>
+          <p>AI-based traffic signal controller using computer vision (OpenCV + Python). Improved traffic efficiency and reduced wait times.</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Mental Health Predictor (Ongoing)</h3>
+          <p>ML-based predictor for mental health analysis using data science workflows, Python, and scikit-learn.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>B.Tech, Computer Science & Engineering</strong> — Indian Institute of Information Technology, Pune (2026 Expected)</p>
+      <p><strong>Higher Secondary (PCM)</strong> — Disha Junior College, Wai (2022)</p>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Full Stack Web Development — Udemy (2024)</li>
+        <li>Data Analyst Bootcamp — Udemy (Ongoing)</li>
+        <li>Deloitte Australia Data Analytics Simulation — Forage (2025)</li>
+        <li>Data Analytics using Power BI Workshop — TechTip24 (2025)</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>If you'd like to connect, feel free to send me a message!</p>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p>📧 <a href="mailto:shreyaavalework@gmail.com">shreyaavalework@gmail.com</a></p>
+        <p>🔗 <a href="https://www.linkedin.com/in/shreya-avale-49a35826b" target="_blank">LinkedIn</a> | <a href="https://github.com/melomaniac184" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p>© 2025 Shreya Avale. All Rights Reserved.</p>
+      <div class="footer-resumes">
+        <a href="assets/ShreyaAvaleResumeFrontEnd.pdf" target="_blank" rel="noopener noreferrer" class="resume-btn">📄 Frontend Resume</a>
+        <a href="assets/ShreyaAvaleResumeDA.pdf" target="_blank" rel="noopener noreferrer" class="resume-btn">📊 Data Analyst Resume</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
