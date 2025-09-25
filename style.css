@@ -260,3 +260,13 @@ footer {
 .projects-grid .project-card:nth-child(6).hidden {
   transition-delay: 1.2s;
 }
+
+
+/* Project Skills Line */
+.skills-line {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
+  font-style: italic;
+}
+
